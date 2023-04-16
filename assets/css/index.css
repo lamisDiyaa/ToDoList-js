@@ -1,0 +1,80 @@
+body{
+    background-color: rgba(148, 146, 146, 0.74);
+    background-image: url(../img/photo_2023-03-27_14-56-20.jpg);
+    background-position: center;
+    /* background-size: cover; */
+}
+body::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.705);
+    z-index: -1;
+    height: 100%;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.btn-cus{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(187, 84, 119);
+    border: none;
+    margin-right: 5px;
+    z-index: 2;
+}
+.btn-add{
+    background-color: rgb(187, 84, 119);
+    border-radius: 10px;
+    color: antiquewhite;
+    padding: 7px 15px;
+    font-family: SunnyspellsRegular;
+    letter-spacing: 1.4px;
+    text-transform: capitalize;
+    border: none;
+    margin-left: 5px;
+    z-index: 2;
+}
+.text-cus{
+    background-color: rgba(255, 255, 255, 0.973);
+    border-radius: 10px;
+    padding: 10px 20px;
+    z-index: 2;
+}
+.h2{
+    font-family:MotleyForcesRegular ;
+    color: rgb(187, 84, 119);
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    z-index: 2;
+}
+.test{
+    text-decoration: line-through;
+    background-color: rgba(128, 128, 128, 0.596);
+    color:whitesmoke;
+ }
+.btn-dele{
+    background-color: rgb(187, 84, 119);
+    color: azure;
+    padding: 7px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 8px;
+    font-family: SunnyspellsRegular;
+    letter-spacing: 1.4px;
+    z-index: 2;
+}
+@font-face {
+    font-family: SunnyspellsRegular;
+    src: url(../fonts/SunnyspellsRegular-MV9ze.otf);
+}
+@font-face {
+    font-family: MotleyForcesRegular;
+    src: url(../fonts/MotleyForcesRegular-w1rZ3.ttf);
+}
